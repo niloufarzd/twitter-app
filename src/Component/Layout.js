@@ -1,11 +1,15 @@
 import React from 'react'
+import useStyle from './Styles'
+
 
 export const Layout = () => {
+    const classes =useStyle();
     return (
-        <div>
-            <div>right sidebar</div>
-            <div>left sidebar</div>
-            <div>main side bar</div>
+        <div className={classes.root}>
+            <div className={classes.rightSidebar}>right sidebar</div>
+            <div className={classes.mainPart} >main part</div>
+            <div className={classes.leftSidebar}> left sidebar</div>
+
 
         </div>
     )
