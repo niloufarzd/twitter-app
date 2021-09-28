@@ -2,3 +2,19 @@ body{
     direction: rtl;
     margin: 0;
 }
+@font-face {
+    font-family: 'Lotus';
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Lotus/Lotus.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Lotus/Lotus.eot?#iefix') format('embedded-opentype'),
+		 url('https://cdn.fontcdn.ir/Font/Persian/Lotus/Lotus.woff') format('woff'),
+		 url('https://cdn.fontcdn.ir/Font/Persian/Lotus/Lotus.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Lotus';
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Lotus/Lotus-Bold.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Lotus/Lotus-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('https://cdn.fontcdn.ir/Font/Persian/Lotus/Lotus-Bold.woff') format('woff'),
+		 url('https://cdn.fontcdn.ir/Font/Persian/Lotus/Lotus-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
