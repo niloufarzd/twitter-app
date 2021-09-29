@@ -1,7 +1,9 @@
 body{
     direction: rtl;
     margin: 0;
+
 }
+
 @font-face {
     font-family: 'Lotus';
     src: url('https://cdn.fontcdn.ir/Font/Persian/Lotus/Lotus.eot');
@@ -18,3 +20,35 @@ body{
 		 url('https://cdn.fontcdn.ir/Font/Persian/Lotus/Lotus-Bold.ttf') format('truetype');
     font-weight: bold;
 }
+
+.main{
+    background:white;
+    width: 18%;
+    padding: 1.5rem 1rem;
+}
+.logoType{
+    font-size: 1.25rem !important ;
+    font-weight: 600 !important;
+    margin-right: 1rem !important ;
+      margin-top: 10px !important ;
+     color:rgb(123, 123, 221);
+
+   }
+   .hashTitle{
+    font-size: 1.25rem !important ;
+    font-weight: 600 !important;
+    color:black;
+    margin-top: 3rem !important;
+    margin-bottom: 1.5rem !important;
+   }
+   .hashtag{
+    margin-right: 0.8rem !important ;
+
+   }
+   .hashtagParent{
+    margin-bottom: 0.5rem !important;
+    padding: 0.15rem !important;
+    width: 100% !important;
+
+
+   }

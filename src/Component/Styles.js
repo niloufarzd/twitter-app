@@ -3,25 +3,29 @@ import {makeStyles} from "@mui/styles"
 const useStyles = makeStyles({
     root:{
       
-          height:"100vh",
-          width:"100%",
-          display:"flex",
-          overflow:"hidden"
+        display: 'flex',
+        height: '100vh',
+        width: '100%',
+        overflow: 'hidden'
     },
-    rightSidebar:{
-         backgroundColor:"#bdc3c7",
-         width:"100%"  
-
-    },
+   
     leftSidebar:{
-        backgroundColor:"#bdc3c7",
-       width:"25%",
-
+        backgroundColor: 'white',
+        width:"25%"
    
 
     },
     mainPart:{
-        backgroundColor:"#bdc3c7",
+        backgroundColor:"#white",
+        flex:1,
+    },
+    
+    divider:{
+        height : '100%',
+        width : 1,
+        backgroundColor:"#7EBAFF !important",
+        filter : "opacity(0.5)"
+
     }
   });
   export default useStyles;
